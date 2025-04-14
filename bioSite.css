@@ -61,9 +61,17 @@ nav a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     background-color: #B8EB88;
     padding: 10px;
-  }
-  
+}
 
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+  
 .bio-text {
   max-width: 600px;
   padding-left: 40px;
@@ -164,5 +172,17 @@ nav a:hover {
   
   .hobby-card:hover {
     transform: scale(1.02);
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
   
