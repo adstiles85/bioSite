@@ -1,0 +1,168 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E7EBC7;
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding-bottom: 40px;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #E7EBC7;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #000000;
+}
+
+nav {
+    background-color: #000000;
+    padding: 10px 0;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: #E7EB97;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+nav a:hover {
+    background-color: #E7EB97;
+    color: #000000;
+}  
+
+/* Main Content Layout */
+.landing-layout {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px 10%;
+}
+
+.bio-image img {
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #B8EB88;
+    padding: 10px;
+  }
+  
+
+.bio-text {
+  max-width: 600px;
+  padding-left: 40px;
+}
+
+.bio-text h2 {
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.bio-text p {
+  color: #000000;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.interview-question {
+    margin-bottom: 10px;
+  }  
+
+/* Goals Page Layout */
+.goals-layout {
+    padding: 40px 10%;
+    text-align: center;
+}
+  
+.goals-layout h2 {
+    margin-bottom: 30px;
+    color: #000000;
+}
+  
+/* Card Grid */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+  
+/* Individual Goal Card */
+.goal-card {
+    background-color: #B8EB88;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+  
+.goal-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+  
+.goal-card p {
+    color: #000000;
+    font-size: 0.95em;
+}
+  
+.goal-card:hover {
+    transform: scale(1.02);
+}
+
+/* Hobbies Page Layout */
+.hobbies-layout {
+    padding: 40px 10%;
+    text-align: center;
+  }
+  
+  .hobbies-layout h2 {
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  
+  /* Hobby Cards */
+  .hobby-card {
+    background-color: #E7EB97;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    transition: transform 0.2s ease;
+  }
+  
+  .hobby-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .hobby-card p {
+    color: #000000;
+    font-size: 0.95em;
+  }
+  
+  .hobby-card:hover {
+    transform: scale(1.02);
+  }
+  
