@@ -54,8 +54,9 @@ nav a:hover {
 
 .bio-image img {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     min-width: 200px;
+    max-height: 700px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -185,4 +186,36 @@ nav a:hover {
     white-space: nowrap;
     border: 0;
   }
+
+  /* Footer Styles */
+.site-footer {
+  background-color: #000000;
+  padding: 10px 20px;
+  color: #E7EB97;
+  font-size: 0.85em;
+  position: relative;
+  margin-top: 40px;
+}
+
+.footer-center {
+  text-align: center;
+  margin: 0;
+}
+
+.footer-link {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  margin: 0;
+}
+
+.footer-link a {
+  color: #E7EB97;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
   
